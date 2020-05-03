@@ -1,20 +1,37 @@
-.poster{
-    position: relative;
-}
-
-.info {
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    font-family: 'Source Sans Pro', sans-serif;
+body {
+/* Location of the image */
+background-image: url(/imgs/cloudy.png);
+/* Background image is centered vertically and horizontally at all times */
+background-position: center center;
+/* Background image doesn't tile */
+background-repeat: no-repeat;
+/* Background image is fixed in the viewport so that it doesn't move when 
+   the content's height is greater than the image's height */
+background-attachment: fixed;
+/* This is what makes the background image rescale based
+   on the container's size */
+background-size: cover;
+/* Set a background color that will be displayed
+   while the background image is loading */
+background-color: #464646;
 }
 
  .poster .info h1 {
-    font-size: 6vw;
+    font-size: 7vw;
+    font-family: 'Snowburst One', cursive;
+    font-family: 'Crushed', cursive;
 }
 
 .poster .info h2 {
+    text-align: center;
     font-size: 4vw;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
+.navbar-custom {
+    background-color: rgb(142, 69, 184);
+}
+
+.navbar a {
+    color: white;
+}

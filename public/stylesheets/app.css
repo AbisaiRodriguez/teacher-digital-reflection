@@ -1,34 +1,20 @@
-.container {
-    max-width: 1400px;
-    margin: 0 auto;
-    padding: 0 20px;
+.poster{
+    position: relative;
 }
 
-header {
-    padding: 10px;
-    background-color: black;
-    font-family: 'Dancing Script', cursive;
-    color: white;
+.info {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.logo {
-    display: block;
-    font-size: 40px;
+ .poster .info h1 {
+    font-size: 6vw;
 }
 
-.nav-links {
-    display: block;
+.poster .info h2 {
+    font-size: 4vw;
 }
 
-a {
-    display: inline-block;
-    padding: 10px 40px 10px 0;
-    font-size: 22px;
-    text-decoration: none;
-    color: white;
-    transition: all ease-in-out .2s;
-}
-
-a:hover {
-    color: rgb(69, 195, 245);
-}

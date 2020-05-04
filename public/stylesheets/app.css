@@ -17,14 +17,14 @@ background-color: #8a8282;
 }
 
  .poster .info h1 {
-    font-size: 7vw;
+    font-size: 4rem;
     font-family: 'Snowburst One', cursive;
     font-family: 'Crushed', cursive;
 }
 
 .poster .info h2 {
     text-align: center;
-    font-size: 4vw;
+    font-size: 3rem;
     font-family: 'Roboto Condensed', sans-serif;
 }
 
@@ -35,13 +35,13 @@ background-color: #8a8282;
 .navbar .navbar-brand {
     color: white;
     font-family: 'Crushed', cursive;
-    font-size: 2vw;
+    font-size: 2rem;
 }
 
 .navbar .nav-link {
     color: white;
     font-family: 'Crushed', cursive;
-    font-size: 2vw;
+    font-size: 1.5rem;
 }
 
 .navbar .nav-link:hover {
@@ -74,7 +74,7 @@ background-color: #8a8282;
 
 .hello {
     font-family: 'Pacifico', cursive;
-    font-size: 4vw;
+    font-size: 3rem;
 }
 
 p {

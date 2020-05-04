@@ -1,6 +1,6 @@
 body {
 /* Location of the image */
-background-image: url(/imgs/cloudy.png);
+background-image: url(/imgs/cloudy.jpg);
 /* Background image is centered vertically and horizontally at all times */
 background-position: center center;
 /* Background image doesn't tile */
@@ -13,7 +13,7 @@ background-attachment: fixed;
 background-size: cover;
 /* Set a background color that will be displayed
    while the background image is loading */
-background-color: #464646;
+background-color: #8a8282;
 }
 
  .poster .info h1 {
@@ -32,13 +32,20 @@ background-color: #464646;
     background-color: #32c8db;
 }
 
-.navbar a {
+.navbar .navbar-brand {
     color: white;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Crushed', cursive;
+    font-size: 2vw;
 }
 
-.navbar a:hover {
-    border-bottom: 4px solid white;
+.navbar .nav-link {
+    color: white;
+    font-family: 'Crushed', cursive;
+    font-size: 2vw;
+}
+
+.navbar .nav-link:hover {
+    border-bottom: 2px solid white;
 }
 
 .sub-title {
@@ -46,9 +53,33 @@ background-color: #464646;
     font-family: 'Crushed', cursive;
 }
 
+.portrait {
+    border-radius: 50%;
+}
+
+.why-do-i-teach {
+    background-image: url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
+    background-position: center center;
+    /* Background image doesn't tile */
+    background-repeat: no-repeat;
+    /* Background image is fixed in the viewport so that it doesn't move when 
+    the content's height is greater than the image's height */
+    background-attachment: fixed;
+    /* This is what makes the background image rescale based
+    on the container's size */
+    background-size: cover;
+    background-color: rgba(238, 238, 238, 0.8) !important;
+    background-blend-mode: color;
+}
+
+.hello {
+    font-family: 'Pacifico', cursive;
+    font-size: 4vw;
+}
+
 p {
     font-family: 'Roboto Condensed', sans-serif;
-    font-size: 1rem;
+    font-size: 1.25rem;
 }
 
 hr {

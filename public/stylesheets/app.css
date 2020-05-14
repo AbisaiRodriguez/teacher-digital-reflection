@@ -13,35 +13,35 @@ background-attachment: fixed;
 background-size: cover;
 /* Set a background color that will be displayed
    while the background image is loading */
-background-color: #c4bfbf;
+background-color: white;
 }
+
 
  .poster .info h1 {
     font-size: 4rem;
-    font-family: 'Snowburst One', cursive;
-    font-family: 'Crushed', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .poster .info h2 {
     text-align: center;
     font-size: 3rem;
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .navbar-custom {
-    background-color: #32c8db;
+    background-color: #9BD8FE;
 }
 
 .navbar .navbar-brand {
     color: white;
-    font-family: 'Crushed', cursive;
-    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
 }
 
 .navbar .nav-link {
     color: white;
-    font-family: 'Crushed', cursive;
-    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 }
 
 .navbar .nav-link:hover {
@@ -50,44 +50,25 @@ background-color: #c4bfbf;
 
 .sub-title {
     font-size: 2.5rem;
-    font-family: 'Crushed', cursive;
+    font-family: 'Roboto', sans-serif;
 }
 
 .portrait {
     border-radius: 50%;
 }
 
-.why-do-i-teach {
-    background-image: url("https://images.unsplash.com/photo-1513542789411-b6a5d4f31634?ixlib=rb-1.2.1&auto=format&fit=crop&w=667&q=80");
-    background-position: center center;
-    /* Background image doesn't tile */
-    background-repeat: no-repeat;
-    /* Background image is fixed in the viewport so that it doesn't move when 
-    the content's height is greater than the image's height */
-    background-attachment: fixed;
-    /* This is what makes the background image rescale based
-    on the container's size */
-    background-size: cover;
-    background-color: rgba(238, 238, 238, 0.8) !important;
-    background-blend-mode: color;
-}
-
-.hello {
-    font-family: 'Pacifico', cursive;
-    font-size: 3rem;
-}
 
 p {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-size: 1.25rem;
 }
 
 hr {
     border: 0;
     height: 1px;
-    background: #39d4e9;
-    background-image: -webkit-linear-gradient(left, #32c8db, #39d4e9, #32c8db);
-    background-image: -moz-linear-gradient(left, #32c8db, #39d4e9, #32c8db);
-    background-image: -ms-linear-gradient(left, #32c8db, #39d4e9, #32c8db);
-    background-image: -o-linear-gradient(left, #32c8db, #39d4e9, #32c8db);
+    background: #9BD8FE;
+    background-image: -webkit-linear-gradient(left, #9BD8FE, #9BD8FE, #9BD8FE);
+    background-image: -moz-linear-gradient(left, #9BD8FE, #9BD8FE, #9BD8FE);
+    background-image: -ms-linear-gradient(left, #9BD8FE, #9BD8FE, #9BD8FE);
+    background-image: -o-linear-gradient(left, #9BD8FE, #9BD8FE, #9BD8FE);
 }
